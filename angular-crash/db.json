@@ -17,12 +17,6 @@
       "text": "Food Shopping",
       "day": "May 6th at 1:30pm",
       "reminder": false
-    },
-    {
-      "text": "Test",
-      "day": "a time",
-      "reminder": false,
-      "id": 4
     }
   ]
 }
