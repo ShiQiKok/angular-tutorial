@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 
+// component decoration
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-root',                 // the tag name
+  templateUrl: './app.component.html',  // the template file (html)
+  styleUrls: ['./app.component.css']    // the style file (css)
 })
 export class AppComponent {
-  title = 'angular-crash';
+  // properties
+  title: string = 'Task Tracker';
+
+  // methods can be placed here
 }
